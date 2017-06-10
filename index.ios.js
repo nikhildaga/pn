@@ -50,7 +50,7 @@ export default class pn extends Component {
       PushNotification.localNotification({
         message: 'My Notification Message', // (required)
       });
-    }, 10000);
+    }, 3000);
   }
   render() {
     return (
